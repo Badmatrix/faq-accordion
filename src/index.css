@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+    body{
+        background: url(/images/background-pattern-desktop.svg) no-repeat center  ;
+        /* background-size: cover; */
+        @apply bg-purple-300
+    
+    }
+}
